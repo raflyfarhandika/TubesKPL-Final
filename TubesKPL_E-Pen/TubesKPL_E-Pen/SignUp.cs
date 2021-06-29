@@ -58,12 +58,25 @@ namespace TubesKPL_E_Pen
 
         private void chkShowPass_CheckedChanged(object sender, EventArgs e)
         {
-            
+            //Jika di centang maka password muncul
+            if (chkShowPass.Checked)
+            {
+                inputPass.PasswordChar = '\0';
+                inputConfirmPass.PasswordChar = '\0';
+            }
+            //Jika tidak di centang maka password hide
+            else
+            {
+                inputPass.PasswordChar = '•';
+                inputConfirmPass.PasswordChar = '•';
+            }
         }
 
         private void label8_Click(object sender, EventArgs e)
         {
-            
+            //Untuk Berpindah ke halaman Login
+            new Login().Show();
+            this.Hide();
         }
     }
 }
