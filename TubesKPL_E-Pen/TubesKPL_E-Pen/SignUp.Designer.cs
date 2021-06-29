@@ -51,7 +51,7 @@ namespace TubesKPL_E_Pen
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Font = new System.Drawing.Font("Poppins Medium", 10F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label8.Location = new System.Drawing.Point(248, 634);
+            this.label8.Location = new System.Drawing.Point(248, 642);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(94, 25);
             this.label8.TabIndex = 21;
@@ -63,7 +63,7 @@ namespace TubesKPL_E_Pen
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Poppins Medium", 10F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Gray;
-            this.label7.Location = new System.Drawing.Point(33, 634);
+            this.label7.Location = new System.Drawing.Point(33, 642);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(222, 25);
             this.label7.TabIndex = 20;
@@ -76,7 +76,7 @@ namespace TubesKPL_E_Pen
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Poppins Medium", 14F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(53, 573);
+            this.button1.Location = new System.Drawing.Point(53, 581);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(277, 44);
             this.button1.TabIndex = 19;
