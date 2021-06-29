@@ -21,6 +21,21 @@ namespace TubesKPL_E_Pen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Memanggil class db_register
+            var userRegister = new modelUser();
+            userRegister.username = inputUsername.Text;
+            userRegister.email = inputEmail.Text;
+            userRegister.password = inputPass.Text;
+
+            //Membaca File JSON
+            string bacaData = File.ReadAllText("D:/Coddingan/C#/Tugas Praktikum Kelompok/TUBESSSSSSSS/TubesKPL-Final/TubesKPL_E-Pen/TubesKPL_E-Pen/modelUsers.Json");
+
+            List<modelUser> listJson = JsonConvert.DeserializeObject<List<modelUser>>(bacaData);
+            listJson.Add(userRegister);
+            var data = JsonConvert.SerializeObject(listJson, Formatting.Indented);
+            //Menulis ke File JSON
+            File.WriteAllText("D:/Coddingan/C#/Tugas Praktikum Kelompok/TUBESSSSSSSS/TubesKPL-Final/TubesKPL_E-Pen/TubesKPL_E-Pen/modelUsers.Json", data);
+
             //Jika username, email, password, dan confirm password kosong maka gagal
             if (inputUsername.Text == "" && inputEmail.Text == "" && inputPass.Text == "" && inputConfirmPass.Text == "")
             {
