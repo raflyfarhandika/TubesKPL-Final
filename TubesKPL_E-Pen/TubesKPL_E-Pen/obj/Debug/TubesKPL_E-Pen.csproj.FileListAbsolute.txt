@@ -1,0 +1,13 @@
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.exe.config
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.exe
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.pdb
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\Newtonsoft.Json.dll
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\Newtonsoft.Json.xml
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.AssemblyReference.cache
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Properties.Resources.resources
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.SignUp.resources
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.GenerateResource.cache
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CoreCompileInputs.cache
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CopyComplete
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.exe
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.pdb

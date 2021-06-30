@@ -16,7 +16,7 @@ namespace TubesKPL_E_Pen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Feedback());
+            Application.Run(new Login());
         }
     }
 }
