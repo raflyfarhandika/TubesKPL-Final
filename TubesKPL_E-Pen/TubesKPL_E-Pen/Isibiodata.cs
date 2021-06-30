@@ -12,6 +12,15 @@ namespace TubesKPL_E_Pen
 {
     public partial class Isibiodata : Form
     {
+        public enum Month { Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember }
+
+        public static int GetDays(Month bulan)
+        {
+            int[] dayPerMonth = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+            return dayPerMonth[(int)bulan];
+        }
+
         public Isibiodata()
         {
             InitializeComponent();
@@ -19,47 +28,27 @@ namespace TubesKPL_E_Pen
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox1.Text;
-            }
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox2.Text;
-            }
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox3.Text;
-            }
+
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox4.Text;
-            }
+
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox5.Text;
-            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -67,5 +56,31 @@ namespace TubesKPL_E_Pen
             new Feedback().Show();
             this.Hide();
         }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Tanggal.Items.Clear();
+
+            Tanggal.Text = "";
+
+            string bulannya = Bulan.GetItemText(Bulan.SelectedItem);
+
+            int j = GetDays((Month)Enum.Parse(typeof(Month), bulannya));
+
+            for (int i = 1; i <= j; i++)
+            {
+                Tanggal.Items.Add(i);
+            }
+
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+
