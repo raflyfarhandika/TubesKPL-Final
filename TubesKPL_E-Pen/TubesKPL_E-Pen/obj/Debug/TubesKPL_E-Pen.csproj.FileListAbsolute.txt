@@ -11,3 +11,19 @@ D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-
 D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CopyComplete
 D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.exe
 D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.pdb
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.exe.config
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.exe
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\TubesKPL_E-Pen.pdb
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\Newtonsoft.Json.dll
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\bin\Debug\Newtonsoft.Json.xml
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csprojAssemblyReference.cache
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Feedback.resources
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Isibiodata.resources
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Login.resources
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Properties.Resources.resources
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.SignUp.resources
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.GenerateResource.cache
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CoreCompileInputs.cache
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CopyComplete
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.exe
+D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TubesKPL-Final\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.pdb
