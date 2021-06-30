@@ -64,7 +64,8 @@ namespace TubesKPL_E_Pen
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            new Feedback().Show();
+            this.Hide();
         }
     }
 }
