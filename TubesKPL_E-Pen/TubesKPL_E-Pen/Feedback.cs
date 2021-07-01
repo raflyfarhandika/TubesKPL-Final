@@ -64,11 +64,9 @@ namespace TubesKPL_E_Pen
 
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox1.Text;
-            }
+            FeedbackModel feed = new FeedbackModel();
+
+            feed.confirmButtonFeedback(textBox1.Text);
 
             MessageBox.Show("Thank you for your feedback.", "Feedback Completed", MessageBoxButtons.OK);
             this.Dispose(false);
