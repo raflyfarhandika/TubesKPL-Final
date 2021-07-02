@@ -1660,15 +1660,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "TubesKPL_E-Pen/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/TubesKPL_E-Pen.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TubesKPL_E-Pen.dll": {}
-        }
       }
     }
   },
@@ -6112,11 +6103,6 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "TubesKPL_E-Pen/1.0.0": {
-      "type": "project",
-      "path": "../TubesKPL_E-Pen/TubesKPL_E-Pen.csproj",
-      "msbuildProject": "../TubesKPL_E-Pen/TubesKPL_E-Pen.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6124,28 +6110,23 @@
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "TubesKPL_E-Pen >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\azrya\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Rafly Farhandika\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coddingan\\C#\\Tugas Praktikum Kelompok\\TUBESSSSSSSS\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
+      "projectUniqueName": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
       "projectName": "UnitTestProject",
-      "projectPath": "D:\\Coddingan\\C#\\Tugas Praktikum Kelompok\\TUBESSSSSSSS\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\azrya\\.nuget\\packages\\",
-      "outputPath": "D:\\Coddingan\\C#\\Tugas Praktikum Kelompok\\TUBESSSSSSSS\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\obj\\",
+      "projectPath": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\Rafly Farhandika\\.nuget\\packages\\",
+      "outputPath": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\azrya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rafly Farhandika\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6158,11 +6139,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "D:\\Coddingan\\C#\\Tugas Praktikum Kelompok\\TUBESSSSSSSS\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj": {
-              "projectPath": "D:\\Coddingan\\C#\\Tugas Praktikum Kelompok\\TUBESSSSSSSS\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6207,7 +6184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

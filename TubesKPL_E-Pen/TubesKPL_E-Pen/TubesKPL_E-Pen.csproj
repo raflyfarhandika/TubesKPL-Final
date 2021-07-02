@@ -68,6 +68,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginControl.cs" />
     <Compile Include="ModelIsibiodata.cs" />
     <Compile Include="modelUser.cs" />
     <Compile Include="Program.cs" />
