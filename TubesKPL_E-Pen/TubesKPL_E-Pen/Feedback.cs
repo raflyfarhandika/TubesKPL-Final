@@ -64,7 +64,12 @@ namespace TubesKPL_E_Pen
 
         private void buttonKonfirmasi_Click(object sender, EventArgs e)
         {
+            FeedbackModel inputText = new FeedbackModel();
 
+            inputText.confirmButtonFeedback(textBox1.Text);
+
+            MessageBox.Show("Thank you for your feedback.", "Feedback Completed", MessageBoxButtons.OK);
+            this.Close();
         }
     }
 }
