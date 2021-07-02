@@ -59,3 +59,6 @@ D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak (Kamis-Sabtu)\Tubes\TubesKPL2\Tu
 D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak (Kamis-Sabtu)\Tubes\TubesKPL2\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.csproj.CopyComplete
 D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak (Kamis-Sabtu)\Tubes\TubesKPL2\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.exe
 D:\Kuliah\Semester 4\Konstruksi Perangkat Lunak (Kamis-Sabtu)\Tubes\TubesKPL2\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E-Pen.pdb
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Feedback.resources
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Isibiodata.resources
+D:\Coddingan\C#\Tugas Praktikum Kelompok\TUBESSSSSSSS\TubesKPL-Final\TubesKPL_E-Pen\TubesKPL_E-Pen\obj\Debug\TubesKPL_E_Pen.Login.resources
