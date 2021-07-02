@@ -55,10 +55,10 @@ namespace TubesKPL_E_Pen
             else
             {
                 // Membaca File Json
-                string data = File.ReadAllText("D:/Kuliah/Semester 4/Konstruksi Perangkat Lunak/TubesKPL-Final/TubesKPL-Final/TubesKPL_E-Pen/TubesKPL_E-Pen/modelUsers.json");
+                string Data = File.ReadAllText("D:/Kuliah/Semester 4/Konstruksi Perangkat Lunak/TubesKPL-Final/TubesKPL-Final/TubesKPL_E-Pen/TubesKPL_E-Pen/modelUsers.json");
 
                 // Memasukkan Data yang ada di file json kedalam List
-                List<modelUser> DataUser = JsonConvert.DeserializeObject<List<modelUser>>(data);
+                List<modelUser> DataUser = JsonConvert.DeserializeObject<List<modelUser>>(Data);
 
                 // Mencari data yang sesuai dengan yang diinputkan
                 foreach (var item in DataUser)
