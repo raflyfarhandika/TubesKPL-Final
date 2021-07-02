@@ -49,12 +49,11 @@ namespace TubesKPL_E_Pen
             // 
             this.label8.AutoSize = true;
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label8.Font = new System.Drawing.Font("Poppins Medium", 10F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label8.Location = new System.Drawing.Point(372, 988);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(243, 634);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(112, 25);
+            this.label8.Size = new System.Drawing.Size(94, 25);
             this.label8.TabIndex = 21;
             this.label8.Text = "Click Here";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -62,12 +61,11 @@ namespace TubesKPL_E_Pen
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label7.Font = new System.Drawing.Font("Poppins Medium", 10F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Gray;
-            this.label7.Location = new System.Drawing.Point(50, 988);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(28, 634);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(269, 25);
+            this.label7.Size = new System.Drawing.Size(222, 25);
             this.label7.TabIndex = 20;
             this.label7.Text = "Already Have an Account?";
             // 
@@ -76,12 +74,11 @@ namespace TubesKPL_E_Pen
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Poppins Medium", 14F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(80, 894);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(46, 573);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(416, 68);
+            this.button1.Size = new System.Drawing.Size(277, 44);
             this.button1.TabIndex = 19;
             this.button1.Text = "Register";
             this.button1.UseVisualStyleBackColor = false;
@@ -90,12 +87,12 @@ namespace TubesKPL_E_Pen
             // chkShowPass
             // 
             this.chkShowPass.AutoSize = true;
-            this.chkShowPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.chkShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chkShowPass.Font = new System.Drawing.Font("Poppins Medium", 10F, System.Drawing.FontStyle.Bold);
             this.chkShowPass.ForeColor = System.Drawing.Color.Gray;
-            this.chkShowPass.Location = new System.Drawing.Point(267, 785);
-            this.chkShowPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.chkShowPass.Location = new System.Drawing.Point(171, 510);
             this.chkShowPass.Name = "chkShowPass";
-            this.chkShowPass.Size = new System.Drawing.Size(192, 29);
+            this.chkShowPass.Size = new System.Drawing.Size(149, 29);
             this.chkShowPass.TabIndex = 18;
             this.chkShowPass.Text = "Show Password";
             this.chkShowPass.UseVisualStyleBackColor = true;
@@ -105,24 +102,22 @@ namespace TubesKPL_E_Pen
             // 
             this.inputConfirmPass.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.inputConfirmPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputConfirmPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.inputConfirmPass.Location = new System.Drawing.Point(80, 732);
-            this.inputConfirmPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.inputConfirmPass.Font = new System.Drawing.Font("Poppins", 12F);
+            this.inputConfirmPass.Location = new System.Drawing.Point(46, 476);
             this.inputConfirmPass.Multiline = true;
             this.inputConfirmPass.Name = "inputConfirmPass";
             this.inputConfirmPass.PasswordChar = '•';
-            this.inputConfirmPass.Size = new System.Drawing.Size(416, 43);
+            this.inputConfirmPass.Size = new System.Drawing.Size(277, 28);
             this.inputConfirmPass.TabIndex = 14;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(72, 685);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(41, 445);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(226, 29);
+            this.label6.Size = new System.Drawing.Size(175, 28);
             this.label6.TabIndex = 10;
             this.label6.Text = "Confirm Password";
             // 
@@ -130,24 +125,22 @@ namespace TubesKPL_E_Pen
             // 
             this.inputPass.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.inputPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.inputPass.Location = new System.Drawing.Point(80, 617);
-            this.inputPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.inputPass.Font = new System.Drawing.Font("Poppins", 12F);
+            this.inputPass.Location = new System.Drawing.Point(45, 392);
             this.inputPass.Multiline = true;
             this.inputPass.Name = "inputPass";
             this.inputPass.PasswordChar = '•';
-            this.inputPass.Size = new System.Drawing.Size(416, 43);
+            this.inputPass.Size = new System.Drawing.Size(277, 28);
             this.inputPass.TabIndex = 15;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(72, 569);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(41, 370);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 29);
+            this.label5.Size = new System.Drawing.Size(99, 28);
             this.label5.TabIndex = 11;
             this.label5.Text = "Password";
             // 
@@ -155,23 +148,21 @@ namespace TubesKPL_E_Pen
             // 
             this.inputEmail.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.inputEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.inputEmail.Location = new System.Drawing.Point(80, 502);
-            this.inputEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.inputEmail.Font = new System.Drawing.Font("Poppins", 12F);
+            this.inputEmail.Location = new System.Drawing.Point(46, 318);
             this.inputEmail.Multiline = true;
             this.inputEmail.Name = "inputEmail";
-            this.inputEmail.Size = new System.Drawing.Size(416, 43);
+            this.inputEmail.Size = new System.Drawing.Size(277, 28);
             this.inputEmail.TabIndex = 16;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(72, 454);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(41, 295);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 29);
+            this.label4.Size = new System.Drawing.Size(61, 28);
             this.label4.TabIndex = 12;
             this.label4.Text = "Email";
             // 
@@ -179,23 +170,21 @@ namespace TubesKPL_E_Pen
             // 
             this.inputUsername.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.inputUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inputUsername.Location = new System.Drawing.Point(80, 388);
-            this.inputUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.inputUsername.Font = new System.Drawing.Font("Poppins", 12F);
+            this.inputUsername.Location = new System.Drawing.Point(46, 252);
             this.inputUsername.Multiline = true;
             this.inputUsername.Name = "inputUsername";
-            this.inputUsername.Size = new System.Drawing.Size(416, 43);
+            this.inputUsername.Size = new System.Drawing.Size(277, 28);
             this.inputUsername.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(72, 340);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(41, 221);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 29);
+            this.label3.Size = new System.Drawing.Size(104, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Username";
             // 
@@ -204,12 +193,11 @@ namespace TubesKPL_E_Pen
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Poppins SemiBold", 18F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label2.Location = new System.Drawing.Point(69, 146);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(46, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(365, 40);
+            this.label2.Size = new System.Drawing.Size(267, 42);
             this.label2.TabIndex = 9;
             this.label2.Text = "Create New Account";
             // 
@@ -217,21 +205,20 @@ namespace TubesKPL_E_Pen
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 18F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label1.Location = new System.Drawing.Point(69, 82);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(46, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 40);
+            this.label1.Size = new System.Drawing.Size(165, 42);
             this.label1.TabIndex = 8;
             this.label1.Text = "Hi, Im E-PEN";
             // 
             // SignUp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(562, 1106);
+            this.ClientSize = new System.Drawing.Size(375, 812);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
@@ -247,7 +234,6 @@ namespace TubesKPL_E_Pen
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp";
