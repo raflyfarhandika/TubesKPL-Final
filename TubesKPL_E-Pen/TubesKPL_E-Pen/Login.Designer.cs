@@ -33,7 +33,7 @@ namespace TubesKPL_E_Pen
             this.chkShowPass = new System.Windows.Forms.CheckBox();
             this.forgetPass = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.butnLogin = new System.Windows.Forms.Button();
+            this.LoginButton = new System.Windows.Forms.Button();
             this.inputPass = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.inputUsername = new System.Windows.Forms.TextBox();
@@ -96,20 +96,20 @@ namespace TubesKPL_E_Pen
             this.label7.Text = "Forget Password?";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // butnLogin
+            // LoginButton
             // 
-            this.butnLogin.BackColor = System.Drawing.Color.DarkCyan;
-            this.butnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.butnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.butnLogin.ForeColor = System.Drawing.Color.White;
-            this.butnLogin.Location = new System.Drawing.Point(46, 441);
-            this.butnLogin.Name = "butnLogin";
-            this.butnLogin.Size = new System.Drawing.Size(277, 44);
-            this.butnLogin.TabIndex = 20;
-            this.butnLogin.Text = "Login";
-            this.butnLogin.UseVisualStyleBackColor = false;
-            this.butnLogin.Click += new System.EventHandler(this.butnLogin_Click);
+            this.LoginButton.BackColor = System.Drawing.Color.DarkCyan;
+            this.LoginButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.LoginButton.ForeColor = System.Drawing.Color.White;
+            this.LoginButton.Location = new System.Drawing.Point(46, 441);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(277, 44);
+            this.LoginButton.TabIndex = 20;
+            this.LoginButton.Text = "Login";
+            this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // inputPass
             // 
@@ -197,7 +197,7 @@ namespace TubesKPL_E_Pen
             this.Controls.Add(this.chkShowPass);
             this.Controls.Add(this.forgetPass);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.butnLogin);
+            this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.inputPass);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.inputUsername);
@@ -219,7 +219,7 @@ namespace TubesKPL_E_Pen
         private System.Windows.Forms.CheckBox chkShowPass;
         private System.Windows.Forms.Label forgetPass;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button butnLogin;
+        private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.TextBox inputPass;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox inputUsername;
