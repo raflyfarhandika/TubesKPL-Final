@@ -12,12 +12,15 @@ namespace TubesKPL_E_Pen
 {
     public partial class Isibiodata : Form
     {
+        // Membuat index untuk menggambarkan inputnya
         public enum Month { Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember }
 
+        // Membuat Array untuk menggambarkan outputnya
         public static int GetDays(Month bulan)
         {
             int[] dayPerMonth = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
+            // Mengembalikan hasil array
             return dayPerMonth[(int)bulan];
         }
 
@@ -59,15 +62,17 @@ namespace TubesKPL_E_Pen
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Menyesuaikan tanggal dengan bulan yang dipilih
             Tanggal.Items.Clear();
 
             Tanggal.Text = "";
 
             string bulannya = Bulan.GetItemText(Bulan.SelectedItem);
 
-            int j = GetDays((Month)Enum.Parse(typeof(Month), bulannya));
+            int Days = GetDays((Month)Enum.Parse(typeof(Month), bulannya));
 
-            for (int i = 1; i <= j; i++)
+            
+            for (int i = 1; i <= Days; i++)
             {
                 Tanggal.Items.Add(i);
             }

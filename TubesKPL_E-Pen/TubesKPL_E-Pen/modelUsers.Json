@@ -2,36 +2,61 @@
   {
     "username": "epen123",
     "email": "epen123@gmail.com",
-    "password": "epen123"
+    "password": "epen123",
+    "confirmPass": null
   },
   {
     "username": "epen",
     "email": "epen@gmail.com",
-    "password": "epen92"
+    "password": "epen92",
+    "confirmPass": null
   },
   {
     "username": "azryal",
     "email": "azryal@gmail.com",
-    "password": "azryal"
+    "password": "azryal",
+    "confirmPass": null
   },
   {
     "username": "",
     "email": "",
-    "password": ""
+    "password": "",
+    "confirmPass": null
   },
   {
     "username": "rafhly",
     "email": "rafhlly@gmail.com",
-    "password": ""
+    "password": "",
+    "confirmPass": null
   },
   {
     "username": "rafhly",
     "email": "rafhlly@gmail.com",
-    "password": "rafhly"
+    "password": "rafhly",
+    "confirmPass": null
   },
   {
     "username": "rafhly",
     "email": "rafhlly@gmail.com",
-    "password": "rafhly"
+    "password": "rafhly",
+    "confirmPass": null
+  },
+  {
+    "username": "kplepen",
+    "email": "kplepen@gmail.com",
+    "password": "kplepen",
+    "confirmPass": "kplepen"
+  },
+  {
+    "username": "kontol",
+    "email": "adsasd",
+    "password": "adsasd",
+    "confirmPass": ""
+  },
+  {
+    "username": "kontol",
+    "email": "adsasd",
+    "password": "",
+    "confirmPass": ""
   }
 ]

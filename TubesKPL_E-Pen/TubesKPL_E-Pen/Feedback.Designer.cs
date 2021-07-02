@@ -3,6 +3,8 @@ namespace TubesKPL_E_Pen
 {
     partial class Feedback
     {
+        FeedbackModel starText = new FeedbackModel();
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -54,7 +56,7 @@ namespace TubesKPL_E_Pen
             this.button2Star.Name = "button2Star";
             this.button2Star.Size = new System.Drawing.Size(68, 75);
             this.button2Star.TabIndex = 1;
-            this.button2Star.Text = "2-Star";
+            this.button2Star.Text = starText.getStarText(FeedbackModel.Star.STAR2);
             this.button2Star.UseVisualStyleBackColor = true;
             this.button2Star.Click += new System.EventHandler(this.button2Star_Click);
             // 
@@ -64,7 +66,7 @@ namespace TubesKPL_E_Pen
             this.button3Star.Name = "button3Star";
             this.button3Star.Size = new System.Drawing.Size(68, 75);
             this.button3Star.TabIndex = 2;
-            this.button3Star.Text = "3-Star";
+            this.button3Star.Text = starText.getStarText(FeedbackModel.Star.STAR3);
             this.button3Star.UseVisualStyleBackColor = true;
             this.button3Star.Click += new System.EventHandler(this.button3Star_Click);
             // 
@@ -74,7 +76,7 @@ namespace TubesKPL_E_Pen
             this.button4Star.Name = "button4Star";
             this.button4Star.Size = new System.Drawing.Size(68, 75);
             this.button4Star.TabIndex = 3;
-            this.button4Star.Text = "4-Star";
+            this.button4Star.Text = starText.getStarText(FeedbackModel.Star.STAR4);
             this.button4Star.UseVisualStyleBackColor = true;
             this.button4Star.Click += new System.EventHandler(this.button4Star_Click);
             // 
@@ -84,7 +86,7 @@ namespace TubesKPL_E_Pen
             this.button5Star.Name = "button5Star";
             this.button5Star.Size = new System.Drawing.Size(68, 75);
             this.button5Star.TabIndex = 4;
-            this.button5Star.Text = "5-Star";
+            this.button5Star.Text = starText.getStarText(FeedbackModel.Star.STAR5);
             this.button5Star.UseVisualStyleBackColor = true;
             this.button5Star.Click += new System.EventHandler(this.button5Star_Click);
             // 
@@ -152,7 +154,7 @@ namespace TubesKPL_E_Pen
             this.button1Star.Name = "button1Star";
             this.button1Star.Size = new System.Drawing.Size(68, 75);
             this.button1Star.TabIndex = 12;
-            this.button1Star.Text = "1-Star";
+            this.button1Star.Text = starText.getStarText(FeedbackModel.Star.STAR1);
             this.button1Star.UseVisualStyleBackColor = true;
             this.button1Star.Click += new System.EventHandler(this.button1Star_Click);
             // 

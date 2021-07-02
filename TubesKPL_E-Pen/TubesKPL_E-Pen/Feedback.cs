@@ -19,6 +19,8 @@ namespace TubesKPL_E_Pen
 
         private void button1Star_Click(object sender, EventArgs e)
         {
+            // Menampilkan 1 Bintang (Warna).
+
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Transparent;
             pictureBox3.BackColor = Color.Transparent;
@@ -28,6 +30,8 @@ namespace TubesKPL_E_Pen
 
         private void button2Star_Click(object sender, EventArgs e)
         {
+            // Menampilkan 2 Bintang (Warna).
+
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
             pictureBox3.BackColor = Color.Transparent;
@@ -37,6 +41,8 @@ namespace TubesKPL_E_Pen
 
         private void button3Star_Click(object sender, EventArgs e)
         {
+            // Menampilkan 3 Bintang (Warna).
+
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
             pictureBox3.BackColor = Color.Yellow;
@@ -46,6 +52,7 @@ namespace TubesKPL_E_Pen
 
         private void button4Star_Click(object sender, EventArgs e)
         {
+            // Menampilkan 4 Bintang (Warna).
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
             pictureBox3.BackColor = Color.Yellow;
@@ -55,6 +62,8 @@ namespace TubesKPL_E_Pen
 
         private void button5Star_Click(object sender, EventArgs e)
         {
+            // Menampilkan 5 Bintang(Warna).
+
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
             pictureBox3.BackColor = Color.Yellow;
@@ -64,11 +73,11 @@ namespace TubesKPL_E_Pen
 
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
-            string[] terms = new string[400];
-            for (int runs = 0; runs < 400; runs++)
-            {
-                terms[runs] = textBox1.Text;
-            }
+            // Mengambil text dari Textfield ke array.
+
+            FeedbackModel feed = new FeedbackModel();
+
+            feed.confirmButtonFeedback(textBox1.Text);
 
             MessageBox.Show("Thank you for your feedback.", "Feedback Completed", MessageBoxButtons.OK);
             this.Dispose(false);
