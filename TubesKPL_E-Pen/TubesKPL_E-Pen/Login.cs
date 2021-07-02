@@ -45,37 +45,38 @@ namespace TubesKPL_E_Pen
 
         }
 
-        private void butnLogin_Click(object sender, EventArgs e)
+        private void LoginButton_Click(object sender, EventArgs e)
         {
-            Boolean Kondisi = true;
+            Boolean DataBenar = false;
             if (string.IsNullOrEmpty(inputUsername.Text) && string.IsNullOrEmpty(inputPass.Text))
             {
-                MessageBox.Show("Harap Masukkan Username dan Password dengan benar!!!!!!!!! -_-");
+                MessageBox.Show("Harap Masukkan Username dan Password dengan benar");
             }
             else
             {
+                // Membaca File Json
                 string data = File.ReadAllText("D:/Kuliah/Semester 4/Konstruksi Perangkat Lunak/TubesKPL-Final/TubesKPL-Final/TubesKPL_E-Pen/TubesKPL_E-Pen/modelUsers.json");
 
+                // Memasukkan Data yang ada di file json kedalam List
                 List<modelUser> DataUser = JsonConvert.DeserializeObject<List<modelUser>>(data);
 
+                // Mencari data yang sesuai dengan yang diinputkan
                 foreach (var item in DataUser)
                 {
                     if (item.username == inputUsername.Text && item.password == inputPass.Text)
                     {
-                        Kondisi = false;
+                        DataBenar = true;
                         break;
                     }
                 }
 
-                if (Kondisi == false)
+
+                // Memanggil Function LoginController
+                Boolean VerifikasiData = new LoginControl().LoginController(DataBenar);
+                if (VerifikasiData)
                 {
-                    MessageBox.Show("username dan password benar gan");
+                    // Menutup Form Login
                     this.Hide();
-                    new Isibiodata().Show();
-                }
-                else
-                {
-                    MessageBox.Show("username dan password salah cok!!!");
                 }
             }
         }
@@ -107,6 +108,7 @@ namespace TubesKPL_E_Pen
 
         private void butnRegister_Click(object sender, EventArgs e)
         {
+            // Menutup Form login lalu Form SignUp terbuka
             this.Hide();
             new SignUp().Show();
         }

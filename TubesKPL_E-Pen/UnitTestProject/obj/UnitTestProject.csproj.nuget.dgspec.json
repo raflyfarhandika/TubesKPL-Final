@@ -1,30 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj": {}
+    "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj",
-        "projectName": "TubesKPL_E-Pen",
-        "projectPath": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj"
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj": {
+    "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
+        "projectUniqueName": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
         "projectName": "UnitTestProject",
-        "projectPath": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
-        "packagesPath": "C:\\Users\\Ilmam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\obj\\",
+        "projectPath": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\UnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\Rafly Farhandika\\.nuget\\packages\\",
+        "outputPath": "D:\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\TubesKPL-Final\\TubesKPL-Final\\TubesKPL_E-Pen\\UnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ilmam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rafly Farhandika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,11 +27,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj": {
-                "projectPath": "C:\\Users\\Ilmam\\AppData\\Local\\GitHubDesktop\\ReposKPL_Final\\TubesKPL-Final\\TubesKPL_E-Pen\\TubesKPL_E-Pen\\TubesKPL_E-Pen.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
